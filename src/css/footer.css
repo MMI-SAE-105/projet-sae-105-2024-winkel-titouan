@@ -1,0 +1,43 @@
+/* Footer */
+.footer {
+    background-color: #379096;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    border-top: 5px solid black;
+}
+
+.footer-text {
+    font-family: "Inria Sans";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    color: rgba(255, 255, 255, 0.75);
+    text-align: left;
+}
+
+.footer-titre {
+    font-family: var(--heading, "Inria Serif");
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+}
+
+.footer-titre2 {
+    font-family: "Inria Sans";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    color: rgba(255, 255, 255, 0.75);
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.footer-icons {
+    margin-right: 80%;
+}

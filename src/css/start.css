@@ -5,7 +5,6 @@
             color: #333;
         }
 
-        /* BEM Naming and CSS */
         .header {
             background-color: #6BD5D5;
             display: flex;
