@@ -1,0 +1,154 @@
+        
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        /* BEM Naming and CSS */
+        .header {
+            background-color: #6BD5D5;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 30px;
+            position: relative;
+        }
+
+        .header__logo {
+            cursor: pointer;
+        }
+
+        .header__menu {
+            display: flex;
+            align-items: center;
+        }
+
+        .header__language-button {
+            background-color: #FFCE84;
+            border: 3px solid black;
+            border-radius: 100px;
+            padding: 5px 10px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+        .header__hamburger {
+            cursor: pointer;
+        }
+
+        .header__title {
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 0 10px;
+            font-size: 1.5em;
+            z-index: 1;
+        }
+
+        .header__border {
+            position: absolute;
+            bottom: -4px;
+            left: -15px;
+            width: calc(50% - 80px);
+            height: 15px;
+            background-color: #BA74FF;
+            top: 76px;
+            z-index: 1;
+        }
+
+        .header__border--right {
+            left: 290px;
+        }
+
+        .hero {
+            background-image: url('/assets/img/fond-page-accueil-ville-futuriste.svg');
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            position: relative;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero__title {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        .hero__subtitle {
+            border-top: 3px solid #BA74FF;
+            width: 150px;
+            margin-top: 10px;
+        }
+
+        .hero__logo {
+            margin-top: 20px;
+        }
+
+        .hero__scroll-indicator {
+            position: absolute;
+            bottom: 20px;
+            cursor: pointer;
+        }
+
+        .main {
+            padding: 20px;
+            margin: 0;
+        }
+
+        .main__intro {
+            margin: 20px 0;
+            text-align: left;
+        }
+
+        .main__separator {
+            margin: 40px 0;
+            border-top: 1px solid #333;
+        }
+
+.section {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section__content {
+    width: 45%;
+    text-align: left;
+}
+
+.section__image {
+    width: 45%;
+    flex-shrink: 0;
+}
+
+.section__button {
+    background-color: white;
+    border: 4px solid #8000FF;
+    border-radius: 100px;
+    color: #8000FF;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+    
+
+@media (min-width: 768px) {
+    .section:nth-child(odd) {
+        flex-direction: row;
+    }
+
+    .section:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+}
