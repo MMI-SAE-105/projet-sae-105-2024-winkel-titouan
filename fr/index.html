@@ -25,21 +25,39 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jaro:opsz@6..72&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
         rel="stylesheet">
-</head>
 
+    <script type="module" src="/src/js/menu.js"></script>
+</head>
 <body>
 
     <header class="header">
         <div class="header__logo"><img src="/assets/favicon/logo.svg" alt=""></div>
+        <div class="header__button">
+            <button class="header__language-button">FR</button> 
+            <div class="header__menu--icon">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
         <div class="header__menu">
-            <button class="header__language-button">FR</button>
-            <div class="header__hamburger">&#9776;</div>
+            <div class="main__separator--menu"></div>
+            <a href="/index.html">Accueil</a>
+            <a href="/pages fr/page-présentation.html">Présentation</a>
+            <a href="/pages fr/page-programme.html">Programme</a>
+            <a href="/pages fr/pag-courts-métrages.html">Courts-métrages</a>
+            <a href="/pages fr/page-présentation.html">Localisation</a>
+            <a href="/pages fr/page-invités.html">Invités</a>
+            <a href="/pages fr/billetterie.html">Billetterie</a>
+            <a href="/pages fr/page-contact.html">Contact</a>
+            <a href="/pages fr/page-contact.html">Contact</a>
         </div>
         <div class="header__title">Futurbanisme</div>
-        <div class="header__border"></div>
-        <div class="header__border header__border--right"></div>
-
-        
+        <div class="header__border">
+            <div class="header__border--left"></div>
+            <div class="header__border--right"></div>
+        </div>
     </header>
 
     <section class="hero">
@@ -61,20 +79,19 @@
                     environnementaux. Conçu pour optimiser l’espace, il combine habitations, bureaux et loisirs dans une
                     même structure.</p>
             </div>
-            <img src="/assets/img/ville-futuriste-neons-violet.svg" alt="Image d'un immeuble" class="section__image">
+            <img src="/assets/img/ville-futuriste-neons-violet.svg" alt="Image d'un immeuble" class="section__image" loading="lazy">
         </div>
         <a href="#" class="main__button">Voir plus</a>
 
         <div class="main__separator"></div>
         
         <div class="section">
-            <img src="/assets/img/cinquieme-element-affiche.svg" alt="Image d'un bâtiment futuriste" class="section__image">
+            <img src="/assets/img/cinquieme-element-affiche.svg" alt="Image d'un bâtiment futuriste" class="section__image" loading="lazy">
             <div class="section__content">
                 <h2 class="main__titre">Le Cinquième Élément</h2>
-                <p class="main__texte-accueil">Sorti en 1997, Le Cinquième Élément de Luc Besson dépeint une vision futuriste captivante : en 2263, une ville verticale
-                regorgeant de technologies, où voitures volantes sillonnent des gratte-ciels infinis. Ce film culte mêle
-                science-fiction, action et comédie, tout en explorant l'évolution urbaine et l'interaction entre technologie et
-                humanité.</p>
+                <p class="main__texte-accueil">Sorti en 1997, Le Cinquième Élément de Luc Besson offre une vision futuriste de 2263, avec des voitures volantes et des
+                gratte-ciels infinis. Ce film culte mêle science-fiction, action et comédie, explorant l'évolution urbaine et la
+                technologie.</p>
             </div>
         </div>
         <a href="#" class="main__button">Voir plus</a>
@@ -84,17 +101,11 @@
         <div class="section">
             <div class="section__content">
                 <h2 class="main__titre">Hunger Games (roman)</h2>
-                <p class="main__texte-accueil">Écrit par Suzanne Collins, Hunger Games plonge dans un futur dystopique où une société totalitaire impose des jeux
-                cruels à ses citoyens.
-                
-                
-                L’héroïne, Katniss Everdeen, devient un symbole de rébellion contre le pouvoir.
-                
-                
-                À travers son récit, le livre explore des thèmes comme l’oppression, la lutte des classes et les dérives de la
-                technologie.</p>
+                <p class="main__texte-accueil">Écrit par Suzanne Collins, Hunger Games se déroule dans un futur dystopique où une société totalitaire impose des jeux
+                cruels. Katniss Everdeen, l'héroïne, devient un symbole de rébellion, explorant des thèmes comme l'oppression, la lutte
+                des classes et les dérives technologiques.</p>
             </div>
-            <img src="/assets/img/ville-futuriste-neons-violet.svg" alt="Image d'un immeuble" class="section__image">
+            <img src="/assets/img/hunger-games-couverture.svg" alt="Image d'un immeuble" class="section__image" loading="lazy">
         </div>
         <a href="#" class="main__button">Voir plus</a>
 
@@ -118,14 +129,9 @@
         <div class="section">
             <div class="section__content">
                 <h2 class="main__titre">Little Light of Love</h2>
-                <p class="main__texte-accueil">Composée par Éric Serra pour Le Cinquième Élément, Little Light of Love est une chanson phare, mêlant sonorités
-                futuristes et influences world music.
-                
-                Ce morceau, à la fois poétique et énergique, incarne l'espoir et l'amour dans un monde futuriste dominé par la
-                technologie.
-                
-                Avec sa mélodie envoûtante, il reflète parfaitement l'ambiance unique du film de Luc Besson et reste une pièce marquante
-                de sa bande-son.</p>
+                <p class="main__texte-accueil">Composée par Éric Serra pour Le Cinquième Élément, Little Light of Love mêle sonorités futuristes et influences world
+                music. Poétique et énergique, cette chanson incarne l'espoir et l'amour dans un monde futuriste, reflétant parfaitement
+                l'ambiance unique du film de Luc Besson.</p>
             </div>
             <img src="/assets/img/ville-futuriste-neons-violet.svg" alt="Image d'un immeuble" class="section__image">
         </div>
