@@ -1,0 +1,28 @@
+  .formulaire__form {
+      width: 85%;
+      margin: 0 auto;
+  }
+
+  .formulaire__label {
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 5px;
+      font-family: var(--body, "Josefin Sans");
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: uppercase;
+      margin-top: 30px;
+  }
+
+  .formulaire__input,.formulaire__textarea {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+      border: 1px solid #000;
+  }
+
+  textarea {
+      height: 200px;
+  }

@@ -38,11 +38,25 @@
     <div class="header__border header__border--right"></div>
 </header>
 
-<main>
+<main class="formulaire">
     <div class="main__separator"></div>
-    <h2>Contact</h2>
+    <h2 class="main__titre">Contact</h2>
 
-    <a href="#" class="section__button">Envoyer</a>
+    <form class="formulaire__form">
+        <label for="prenom" class="formulaire__label">Prénom</label>
+        <input type="text" id="prenom" name="prenom" class="formulaire__input">
+    
+        <label for="nom" class="formulaire__label">Nom</label>
+        <input type="text" id="nom" name="nom" class="formulaire__input">
+    
+        <label for="email" class="formulaire__label">E-mail</label>
+        <input type="email" id="email" name="email" class="formulaire__input">
+    
+        <label for="message" class="formulaire__label">Message</label>
+        <textarea id="message" name="message" class="formulaire__textarea"></textarea>
+    </form>
+
+    <a href="#" class="main__button">Envoyer</a>
 </main>
     
 </body>

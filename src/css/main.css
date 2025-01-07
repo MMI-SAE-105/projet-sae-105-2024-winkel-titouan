@@ -48,7 +48,7 @@
 
 .main__lien {
     font-family: var(--body, "Josefin Sans");
-    font-size: 22px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -76,4 +76,22 @@
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+}
+
+.section__bar {
+    width: 34px;
+    height: 121px;
+    flex-shrink: 0;
+    background-color: #A1DCC3;
+    margin-right: 10px;
+    z-index: 1;
+}
+
+.section__text {
+    margin-left: 5%;
+    margin-right: 2%;
+}
+
+.phrise-chronologique {
+    margin-left: -33%;
 }

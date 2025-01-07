@@ -29,12 +29,15 @@
             font-style: normal;
             font-weight: 400;
             line-height: normal;
+            z-index: 1;
+            margin-bottom: -28px;
         }
 
         .hero__subtitle {
-            border-top: 3px solid #BA74FF;
-            width: 150px;
+            border-top: 18px solid #BA74FF;
             margin-top: 10px;
+            width: 320px;
+            z-index: 0;
         }
 
         .hero__logo {
