@@ -1,0 +1,25 @@
+.main__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    padding: auto;
+    padding-top: min(7px);
+    padding-bottom: min(7px);
+    border: 4px solid #8000FF;
+    border-radius: 29px;
+    cursor: pointer;
+    background: none;
+    color: #8000FF;
+    max-width: 200px;
+    text-decoration: none;
+    width: 168px;
+    height: 35px;
+    font-family: var(--body, "Josefin Sans");
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+

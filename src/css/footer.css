@@ -1,43 +1,39 @@
 /* Footer */
 .footer {
-    background-color: #379096;
-    color: #fff;
+    margin-top: 75px;
+    background-color: #6BD5D5;
     text-align: center;
     padding: 20px;
     position: relative;
-    border-top: 5px solid black;
+    border-top: 21px solid #2B5555;
 }
 
-.footer-text {
+.footer__text {
     font-family: "Inria Sans";
     font-size: 11px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    color: rgba(255, 255, 255, 0.75);
+    color: black;
     text-align: left;
+    margin-top: 52px;
 }
 
-.footer-titre {
-    font-family: var(--heading, "Inria Serif");
-    font-size: 24px;
+.footer__item {
+    color: #000;
+    font-family: "Josefin Sans";
+    font-size: 10px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-align: left;
-}
-
-.footer-titre2 {
-    font-family: "Inria Sans";
-    font-size: 11px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-    color: rgba(255, 255, 255, 0.75);
     text-transform: uppercase;
     text-align: left;
+    margin-top: 15px;
 }
 
-.footer-icons {
-    margin-right: 80%;
+.footer__logos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
