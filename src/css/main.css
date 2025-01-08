@@ -1,3 +1,24 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.main {
+    padding: 20px;
+    margin: 0;
+}
+
+.main__intro {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.main__separator {
+    margin: 29px;
+    border-top: 2px solid #696969;
+}
+
 .main__titre {
     font-family: var(--heading, Jaro);
     font-size: 25px;
@@ -109,6 +130,24 @@
     margin-right: 2%;
 }
 
+.section {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section__content {
+    width: 45%;
+    text-align: left;
+}
+
+.section__image {
+    width: 45%;
+    flex-shrink: 0;
+}
+
 .phrise-chronologique {
     margin-left: -45%;
 }
@@ -122,4 +161,20 @@
 
 .main__projets {
     margin-top: 50px;
+}
+
+.video-player {
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+
+@media (min-width: 768px) {
+    .section:nth-child(odd) {
+        flex-direction: row;
+    }
+
+    .section:nth-child(even) {
+        flex-direction: row-reverse;
+    }
 }

@@ -1,0 +1,43 @@
+.hero {
+    margin-top: 18px;
+    background-image: url('/assets/img/fond-page-accueil-ville-futuriste.svg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    position: relative;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__title {
+    margin: 0;
+    color: var(--blanc, #FFF);
+    font-family: var(--heading, Jaro);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 1;
+    margin-bottom: -28px;
+}
+
+.hero__subtitle {
+    border-top: 18px solid #BA74FF;
+    margin-top: 10px;
+    width: 320px;
+    z-index: 0;
+}
+
+.hero__logo {
+    margin-top: 20px;
+}
+
+.hero__scroll-indicator {
+    position: absolute;
+    bottom: 20px;
+    cursor: pointer;
+}
