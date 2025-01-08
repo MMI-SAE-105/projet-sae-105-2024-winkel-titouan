@@ -6,5 +6,5 @@
 - NOM : Winkel 
 - PRÉNOM : Titouan
 - GROUPE : C2
-- URL du site : Netlify : https://futurbanisme.netlify.app  Infomaniak :
-- URL FIGMA :
+- URL du site : Netlify : https://futurbanisme.netlify.app  Infomaniak : https://futurbanisme.titouan-winkel.fr/fr/
+- URL FIGMA : https://www.figma.com/design/CvmuK4sd7QQbez3w6mZSw0/Titouan-Winkel_MMI1C2_projet-personel?node-id=33-3&t=qGThYcOgyAV1ErFe-1
