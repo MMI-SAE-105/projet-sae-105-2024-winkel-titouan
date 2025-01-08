@@ -6,5 +6,5 @@
 - NOM : Winkel 
 - PRÉNOM : Titouan
 - GROUPE : C2
-- URL du site :
+- URL du site : Netlify : https://futurbanisme.netlify.app  Infomaniak :
 - URL FIGMA :
