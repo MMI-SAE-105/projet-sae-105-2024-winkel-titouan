@@ -15,7 +15,6 @@
 .header__button {
     display: flex;
     align-items: center;
-
 }
 
 .header__language-button {
@@ -34,6 +33,10 @@
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
+}
+
+.header__language-lien {
+    text-decoration: none;
 }
 
 .header__menu--icon {
