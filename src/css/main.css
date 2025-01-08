@@ -63,6 +63,21 @@
     color: var(--violet, #8000FF);
 }
 
+.main__lien2 {
+    font-family: var(--body, "Josefin Sans");
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+    color: var(--violet, #8000FF);
+}
+
 .main__sous-titre {
     font-family: var(--body, "Josefin Sans");
     font-size: 18px;
