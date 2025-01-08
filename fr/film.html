@@ -25,18 +25,40 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jaro:opsz@6..72&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
         rel="stylesheet">
+
+    <script type="module" src="/src/js/menu.js"></script>
+    <script type="module" src="/src/js/video.js"></script>
 </head>
 <body>
-<header class="header">
-    <div class="header__logo"><img src="/assets/favicon/logo.svg" alt=""></div>
-    <div class="header__menu">
-        <button class="header__language-button">FR</button>
-        <div class="header__hamburger">&#9776;</div>
-    </div>
-    <div class="header__title">Futurbanisme</div>
-    <div class="header__border"></div>
-    <div class="header__border header__border--right"></div>
-</header>
+    <header class="header">
+        <div class="header__logo"><img src="/assets/favicon/logo.svg" alt=""></div>
+        <div class="header__button">
+            <button class="header__language-button">FR</button>
+            <div class="header__menu--icon">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    
+        <div class="header__menu">
+            <div class="main__separator--menu"></div>
+            <a href="/fr/index.html">Accueil</a>
+            <a href="/fr/immeuble.html">L’immeuble</a>
+            <a href="/fr/film.html">Le Cinquième Élément</a>
+            <a href="/fr/livre.html">Hunger Games</a>
+            <a href="/fr/realisateur.html">Luc Besson</a>
+            <a href="/fr/musique.html">Little Light of Love</a>
+            <a href="/fr/contact.html">Contact</a>
+            <a href="/fr/autres-projets.html">Autres projets</a>
+            <a href="/fr/glossaire.html">Glossaire</a>
+        </div>
+        <div class="header__title">Futurbanisme</div>
+        <div class="header__border">
+            <div class="header__border--left"></div>
+            <div class="header__border--right"></div>
+        </div>
+    </header>
 
 <main class="main">
     <div class="main__separator"></div>
@@ -49,9 +71,15 @@
     
     publié le 23 octobre 2024 à 18h</p>
 
-    <video id="video" src="/assets/video/cinquieme-element-bande-annonce.mp4"></video>
-    
-     <p class="main__texte">Un univers visuel futuriste et coloré
+    <div class="video-player">
+        <video id="video" class="video-player__video" src="/assets/video/cinquieme-element-bande-annonce.mp4"></video>
+        <div class="video-player__controls">
+            <button class="video-player__controls-button video-player__controls-button--play" id="playButton">Play</button>
+            <button class="video-player__controls-button video-player__controls-button--pause" id="pauseButton">Pause</button>
+        </div>
+    </div>
+
+    <p class="main__texte">Un univers visuel futuriste et coloré
     L'une des grandes forces du Cinquième Élément est son univers visuel, qui dépeint un futur exubérant et détaillé. <br> <br>
     Le film se déroule en 2263, dans une ville verticale où les gratte-ciels semblent infinis et où les voitures volantes
     ont remplacé les transports terrestres. <br> <br>
@@ -59,7 +87,7 @@
     propre époque quant à l'évolution des villes. 
     </p>
     
-    <img src="/assets/img/image-cinquieme-element-ville-voitures-volantes.svg" alt="" loading="lazy">
+    <img class="main__image" src="/assets/img/image-cinquieme-element-ville-voitures-volantes.svg" alt="" loading="lazy">
 
     <p class="main__citation">"L'architecture de demain dans Le Cinquième Élément : une mégapole où la verticalité et le mouvement constant
     redéfinissent notre espace de vie."</p>
@@ -67,7 +95,7 @@
     alias Moebius, plongent le spectateur dans un avenir à la fois fascinant et oppressant, où la technologie côtoie un
     environnement urbain surpeuplé.</p>
 
-    <img src="/assets/img/image-cinquieme-element-ville-macdo.svg" alt="" loading="lazy">
+    <img class="main__image" src="/assets/img/image-cinquieme-element-ville-macdo.svg" alt="" loading="lazy">
 
     <h2 class="main__titre">L’humanisation du futur : entre technologie et spiritualité</h2>
     <p class="main__texte">Au-delà de son esthétique futuriste, le film propose une réflexion plus profonde sur la place de l'humanité face à la
@@ -79,7 +107,7 @@
     <p class="main__citation">"Le véritable 'cinquième élément' n’est ni la science ni la technologie, mais bien l’amour, force primordiale capable de
     sauver l'humanité."</p>
 
-    <img src="/assets/img/image-cinquieme-element-ville-personnage-sur-immeuble.svg" alt="" loading="lazy">
+    <img class="main__image" src="/assets/img/image-cinquieme-element-ville-personnage-sur-immeuble.svg" alt="" loading="lazy">
 
     <h2 class="main__titre">Un héritage durable dans la culture pop</h2>
     <p class="main__texte">Plus de 25 ans après sa sortie, Le Cinquième Élément reste une référence incontournable dans l’univers de la
@@ -88,7 +116,7 @@
     largement célébré dans la culture pop.
     </p>
 
-    <img src="/assets/img/image-cinquieme-element-deux-personnages.svg" alt="" loading="lazy">
+    <img class="main__image" src="/assets/img/image-cinquieme-element-deux-personnages.svg" alt="" loading="lazy">
 
     <p class="main__texte">Luc Besson a su imaginer un avenir où l’urbanisme est poussé à l'extrême, et où les questions d’environnement et de
     surpopulation trouvent écho dans nos préoccupations contemporaines. <br> <br>

@@ -25,20 +25,41 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jaro:opsz@6..72&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
         rel="stylesheet">
+
+    <script type="module" src="/src/js/menu.js"></script>
 </head>
 <body>
-<header class="header">
-    <div class="header__logo"><img src="/assets/favicon/logo.svg" alt=""></div>
-    <div class="header__menu">
-        <button class="header__language-button">FR</button>
-        <div class="header__hamburger">&#9776;</div>
-    </div>
-    <div class="header__title">Futurbanisme</div>
-    <div class="header__border"></div>
-    <div class="header__border header__border--right"></div>
-</header>
+    <header class="header">
+        <div class="header__logo"><img src="/assets/favicon/logo.svg" alt=""></div>
+        <div class="header__button">
+            <button class="header__language-button">FR</button>
+            <div class="header__menu--icon">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    
+        <div class="header__menu">
+            <div class="main__separator--menu"></div>
+            <a href="/fr/index.html">Accueil</a>
+            <a href="/fr/immeuble.html">L’immeuble</a>
+            <a href="/fr/film.html">Le Cinquième Élément</a>
+            <a href="/fr/livre.html">Hunger Games</a>
+            <a href="/fr/realisateur.html">Luc Besson</a>
+            <a href="/fr/musique.html">Little Light of Love</a>
+            <a href="/fr/contact.html">Contact</a>
+            <a href="/fr/autres-projets.html">Autres projets</a>
+            <a href="/fr/glossaire.html">Glossaire</a>
+        </div>
+        <div class="header__title">Futurbanisme</div>
+        <div class="header__border">
+            <div class="header__border--left"></div>
+            <div class="header__border--right"></div>
+        </div>
+    </header>
 
-<main>
+<main class="main">
     <div class="main__separator"></div>
     <h2>Autres projets</h2>
 

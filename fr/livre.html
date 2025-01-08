@@ -25,19 +25,40 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jaro:opsz@6..72&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
         rel="stylesheet">
+    
+    <script type="module" src="/src/js/menu.js"></script>
 </head>
 <body>
-<header class="header">
-    <div class="header__logo"><img src="/assets/favicon/logo.svg" alt=""></div>
-    <div class="header__menu">
-        <button class="header__language-button">FR</button>
-        <div class="header__hamburger">&#9776;</div>
-    </div>
-    <div class="header__title">Futurbanisme</div>
-    <div class="header__border"></div>
-    <div class="header__border header__border--right"></div>
-</header>
-<main>
+    <header class="header">
+        <div class="header__logo"><img src="/assets/favicon/logo.svg" alt=""></div>
+        <div class="header__button">
+            <button class="header__language-button">FR</button>
+            <div class="header__menu--icon">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    
+        <div class="header__menu">
+            <div class="main__separator--menu"></div>
+            <a href="/fr/index.html">Accueil</a>
+            <a href="/fr/immeuble.html">L’immeuble</a>
+            <a href="/fr/film.html">Le Cinquième Élément</a>
+            <a href="/fr/livre.html">Hunger Games</a>
+            <a href="/fr/realisateur.html">Luc Besson</a>
+            <a href="/fr/musique.html">Little Light of Love</a>
+            <a href="/fr/contact.html">Contact</a>
+            <a href="/fr/autres-projets.html">Autres projets</a>
+            <a href="/fr/glossaire.html">Glossaire</a>
+        </div>
+        <div class="header__title">Futurbanisme</div>
+        <div class="header__border">
+            <div class="header__border--left"></div>
+            <div class="header__border--right"></div>
+        </div>
+    </header>
+<main class="main">
     <div class="main__separator"></div>
     
     <h2 class="main__titre">"Hunger Games" : Une dystopie captivante sur l’avenir de nos sociétés</h2>
@@ -47,7 +68,7 @@
     <p class="main__legende">Par Titouan Winkel <br>
     publié le 23 octobre 2024 à 18h</p>
 
-    <img src="/assets/img/hunger-games-couverture.svg" alt="" loading="lazy">
+    <img class="main__image" src="/assets/img/hunger-games-couverture.svg" alt="" loading="lazy">
 
     <h2 class="main__titre">Panem : un monde dystopique fascinant</h2>
     <p class="main__texte">L’univers de Hunger Games prend place dans un futur post-apocalyptique où la nation de Panem, divisée en 12 districts,
@@ -59,7 +80,7 @@
     <p class="main__citation">"Dans Hunger Games, la survie des plus forts n’est qu’une façade masquant les mécanismes de contrôle d’une société
     inégalitaire."</p>
 
-    <img src="/assets/img/hunger-games-film-ville-paysage.svg" alt="" loading="lazy">
+    <img class="main__image" src="/assets/img/hunger-games-film-ville-paysage.svg" alt="" loading="lazy">
     <p class="main__legende">Image tirée de l’adaptation en film du roman</p>
 
     <p class="main__texte">L’auteure Suzanne Collins s’inspire de nombreux thèmes actuels, comme la manipulation médiatique, la lutte des classes
@@ -71,7 +92,7 @@
     À travers son parcours, le lecteur explore les thématiques universelles de courage, de sacrifice et de solidarité dans
     un monde déshumanisé.</p>
 
-    <img src="/assets/img/hunger-games-film-ville-paysage2.svg" alt="" loading="lazy">
+    <img class="main__image" src="/assets/img/hunger-games-film-ville-paysage2.svg" alt="" loading="lazy">
     <p class="main__legende">Image tirée de l’adaptation en film du roman</p>
 
     <h2 class="main__titre">Un avertissement sur notre futur ?</h2>

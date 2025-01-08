@@ -1,0 +1,40 @@
+
+.video-player {
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+
+.video-player__video {
+    width: 100%;
+    height: auto;
+}
+
+.video-player__controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.video-player__controls-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.video-player__controls-button:hover {
+    background-color: #8000FF;
+}
+
+.video-player__controls-button--play {
+    background-color: #FFB443;
+}
+
+.video-player__controls-button--pause {
+    background-color: #FFCE84;
+}
