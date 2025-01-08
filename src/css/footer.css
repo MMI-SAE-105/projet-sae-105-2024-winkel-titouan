@@ -2,7 +2,6 @@
 .footer {
     margin-top: 75px;
     background-color: #6BD5D5;
-    text-align: center;
     padding: 20px;
     position: relative;
     border-top: 21px solid #2B5555;
@@ -28,7 +27,16 @@
     line-height: normal;
     text-transform: uppercase;
     text-align: left;
-    margin-top: 15px;
+    text-decoration: none;
+}
+
+.footer__list {
+    padding: 0;
+}
+
+.footer__list li {
+    list-style: none;
+    margin: 15px 0;
 }
 
 .footer__logos {
@@ -36,4 +44,21 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+
+.footer__lien {
+    text-decoration: none;
+    color: var(--violet, #8000FF);
+        font-family: var(--body, "Josefin Sans");
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        text-decoration-line: underline;
+        text-decoration-style: solid;
+        text-decoration-skip-ink: none;
+        text-decoration-thickness: auto;
+        text-underline-offset: auto;
+        text-underline-position: from-font;
+        text-transform: uppercase;
 }
